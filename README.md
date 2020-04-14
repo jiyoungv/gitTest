@@ -55,17 +55,18 @@ git clone https://github.com/jiyoungv/gitTest // 클라이언트에 아무것도
 
 # Git Branch
 
-## 1. branch 
+## 1. branch
 ```
 git branch // 현재 브랜치 확인
 git branch feature // feature라는 브랜치 생성
 git checkout feature // feature라는 브랜치로 HEAD 이동
 ```
 - 앞에 * 표시와 초록색으로 되어있는 곳이 현재 HEAD가 있는 브랜치.
-
-## 2. branch merge
 ```
 git merge feature // feature라는 브랜치를 합치기
 ```
 - **현재 HEAD가 바탕이 되는 master에 있는지 확인 후, merge를 해야한다.**
+```
+git branch -d feature // feature라는 브랜치 delete
+```
 
